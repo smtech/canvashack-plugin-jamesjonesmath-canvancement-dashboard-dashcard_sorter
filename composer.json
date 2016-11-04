@@ -1,0 +1,5 @@
+{
+    "name": "canvashack/plugin-jamesjonesmath-canvancement-dashboard-dashcard_sorter",
+    "description": "This is a user script that will allow the user to drag and drop the course cards on the dashboard into a new position.",
+    "type": "canvashack-plugin"
+}

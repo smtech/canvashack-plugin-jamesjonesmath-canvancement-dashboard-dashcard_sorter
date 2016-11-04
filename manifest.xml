@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<canvashack>
+	<name>Dashboard Card Sorter</name>
+	<id>jamesjonesmath-canvancement-dashboard-dashcard_sorter</id>
+	<description>This is a user script that will allow the user to drag and drop the course cards on the dashboard into a new position.</description>
+	<authors>
+		<author>
+			<name>James Jones</name>
+			<url>https://github.com/jamesjonesmath</url>
+		</author>
+	</authors>
+	<components>
+		<javascript>dashcard_sorter.user.js</javascript>
+		<canvas>
+			<pages>
+				<include>
+					<page>
+						<type>regex</type>
+						<pattern>%^[^/]+/[^/]*$%</pattern>
+					</page>
+				</include>
+			</pages>
+			<dom>
+				<bundle>
+					<event>load</event>
+					<action>go()</action>
+					<selector>body</selector>
+				</bundle>
+			</dom>
+		</canvas>
+	</components>
+</canvashack>
