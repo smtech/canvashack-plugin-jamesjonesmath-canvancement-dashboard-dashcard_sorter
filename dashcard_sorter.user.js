@@ -1,5 +1,5 @@
 var canvashack = {
-    dashcard_sorter: function () {
+    go: function () {
 
         /* from https://github.com/jamesjonesmath/canvancement/tree/master/dashboard */
 

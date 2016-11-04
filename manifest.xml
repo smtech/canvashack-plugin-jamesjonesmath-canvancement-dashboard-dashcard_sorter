@@ -16,7 +16,7 @@
 				<include>
 					<page>
 						<type>regex</type>
-						<pattern>%^[^/]+/[^/]*$%</pattern>
+						<pattern>%.*\.instructure\.com/?[^/]*$%</pattern>
 					</page>
 				</include>
 			</pages>
